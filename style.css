@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#img1{
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+#welcome{
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(#ba8f0f 0%, #5c0466 100%)
+        
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top:10px;
+    bottom:30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links{
+    float: left;
+    color:fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
